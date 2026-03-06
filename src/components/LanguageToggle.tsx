@@ -3,7 +3,7 @@
 import * as React from "react";
 import { Globe } from "lucide-react";
 import { Button } from "./Button";
-import { useLanguage } from "@/app/context/LanguageContext";
+import { useLanguage } from "@/context/LanguageContext";
 
 export function LanguageToggle() {
   const { lang, setLang } = useLanguage();

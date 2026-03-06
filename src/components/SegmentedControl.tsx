@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { cn } from "@/app/utils/cn";
+import { cn } from "@/utils/cn";
 
 interface SegmentedControlProps {
   options: { label: string; value: string }[];

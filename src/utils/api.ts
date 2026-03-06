@@ -1,6 +1,4 @@
-declare var process: any;
-
-export const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3001';
+export const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:3001';
 
 export const api = {
     async registerVisitor(data: { parentName: string; phone: string; studentName: string; visitCode: string }) {

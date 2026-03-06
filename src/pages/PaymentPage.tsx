@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { RegistrationFormData } from "@/utils/formValidation";
+import type { RegistrationFormData } from "@/utils/formValidation";
 import { calculateTotal } from "@/utils/priceCalculator";
 import { Button } from "@/components/Button";
 import {
