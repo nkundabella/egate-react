@@ -1,15 +1,15 @@
-import * as React from "react";
-import { cn } from "@/app/utils/cn";
+import React from "react";
+import { cn } from "@/utils/cn";
 import { Loader2 } from "lucide-react";
 
 export interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   variant?:
-    | "default"
-    | "destructive"
-    | "outline"
-    | "secondary"
-    | "ghost"
-    | "link";
+  | "default"
+  | "destructive"
+  | "outline"
+  | "secondary"
+  | "ghost"
+  | "link";
   size?: "default" | "sm" | "lg" | "icon";
   isLoading?: boolean;
 }

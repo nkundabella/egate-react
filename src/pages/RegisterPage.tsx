@@ -13,7 +13,7 @@ import {
 import { calculateTotal } from "@/utils/priceCalculator";
 import {
     registrationSchema,
-    RegistrationFormData,
+    type RegistrationFormData,
 } from "@/utils/formValidation";
 import { CopyPlus, Trash2, Loader2 } from "lucide-react";
 import { useLanguage } from "@/context/LanguageContext";
